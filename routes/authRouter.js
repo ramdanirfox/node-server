@@ -7,4 +7,4 @@ authRouter.get('/list', async (req, res) => {
     res.json(queryRes.rows);
 });
 
-export default authRouter
+module.exports = authRouter;
